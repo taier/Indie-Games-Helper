@@ -8,7 +8,7 @@ Indie Games Helper is a lightweight API for adding:
 3. In App Purchase 
 4. Sharing 
 
-in iOS apps. If you've used something from that list before, you know how much time and effort it takes to make it work. With this framework it can be done in a few minutes.
+in iOS apps. If you've used something from that list before, you know how much time and effort it takes to make it work. With this framework, it can be done in a few minutes.
 
 ## Usage
   1. Take lib folder form this Demo Project
