@@ -1,7 +1,14 @@
 Indie Games Helper v.1.0
 ==================
 
-Indie Games Helper is a lightweight API for adding Advertising, GameCenter, In App Purchase and Sharing in iOS apps. If you've used something from that list before, you know how much time and effort it takes to make it work.
+Indie Games Helper is a lightweight API for adding:
+
+1. Advertising
+2. GameCenter
+3. In App Purchase 
+4. Sharing 
+
+in iOS apps. If you've used something from that list before, you know how much time and effort it takes to make it work. With this framework it can be done in a few minutes.
 
 ## Usage
   1. Take lib folder form this Demo Project
