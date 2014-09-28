@@ -4,7 +4,7 @@ Indie Games Helper v.1.0
 Indie Games Helper is a lightweight API for adding:
 
 1. Advertising
-2. GameCenter
+2. Game Center
 3. In App Purchase 
 4. Sharing 
 
