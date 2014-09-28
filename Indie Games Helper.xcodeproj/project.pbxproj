@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B523F03F19D6D03B0033FD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F03E19D6D03B0033FD98 /* main.m */; };
+		B523F04219D6D03B0033FD98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F04119D6D03B0033FD98 /* AppDelegate.m */; };
+		B523F04519D6D03B0033FD98 /* SharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F04419D6D03B0033FD98 /* SharingViewController.m */; };
+		B523F04819D6D03B0033FD98 /* LeaderboardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F04719D6D03B0033FD98 /* LeaderboardsViewController.m */; };
+		B523F04B19D6D03B0033FD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B523F04919D6D03B0033FD98 /* Main.storyboard */; };
+		B523F04D19D6D03B0033FD98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B523F04C19D6D03B0033FD98 /* Images.xcassets */; };
+		B523F05019D6D03B0033FD98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B523F04E19D6D03B0033FD98 /* LaunchScreen.xib */; };
+		B523F05C19D6D03B0033FD98 /* Indie_Games_HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F05B19D6D03B0033FD98 /* Indie_Games_HelperTests.m */; };
+		B523F06719D6E9D00033FD98 /* IndieGamesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F06619D6E9D00033FD98 /* IndieGamesHelper.m */; };
+		B523F06A19D6EB9E0033FD98 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B523F06919D6EB9E0033FD98 /* Social.framework */; };
+		B523F06E19D6F41A0033FD98 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B523F06D19D6F41A0033FD98 /* GameKit.framework */; };
+		B523F08119D712560033FD98 /* InAppPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F08019D712560033FD98 /* InAppPurchaseViewController.m */; };
+		B523F08519D719E40033FD98 /* AdvertisingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F08419D719E40033FD98 /* AdvertisingViewController.m */; };
+		B523F0F219D80E760033FD98 /* AdvertisingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0BE19D80E760033FD98 /* AdvertisingHandler.m */; };
+		B523F0F319D80E760033FD98 /* AdvertisingBannerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0C119D80E760033FD98 /* AdvertisingBannerHelper.m */; };
+		B523F0F419D80E760033FD98 /* AdvertisingFullScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0C419D80E760033FD98 /* AdvertisingFullScreenHelper.m */; };
+		B523F0F519D80E760033FD98 /* iADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0C619D80E760033FD98 /* iADViewController.m */; };
+		B523F0F619D80E760033FD98 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B523F0E719D80E760033FD98 /* libGoogleAdMobAds.a */; };
+		B523F0F719D80E760033FD98 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B523F0E819D80E760033FD98 /* README.txt */; };
+		B523F0F819D80E760033FD98 /* GameCenterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0EB19D80E760033FD98 /* GameCenterHandler.m */; };
+		B523F0F919D80E760033FD98 /* InAppPurchaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0EE19D80E760033FD98 /* InAppPurchaseHandler.m */; };
+		B523F0FA19D80E760033FD98 /* SharingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B523F0F119D80E760033FD98 /* SharingHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B523F05619D6D03B0033FD98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B523F03119D6D03B0033FD98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B523F03819D6D03B0033FD98;
+			remoteInfo = "Indie Games Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B523F03919D6D03B0033FD98 /* Indie Games Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indie Games Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523F03D19D6D03B0033FD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B523F03E19D6D03B0033FD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B523F04019D6D03B0033FD98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B523F04119D6D03B0033FD98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B523F04319D6D03B0033FD98 /* SharingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharingViewController.h; sourceTree = "<group>"; };
+		B523F04419D6D03B0033FD98 /* SharingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingViewController.m; sourceTree = "<group>"; };
+		B523F04619D6D03B0033FD98 /* LeaderboardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeaderboardsViewController.h; sourceTree = "<group>"; };
+		B523F04719D6D03B0033FD98 /* LeaderboardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeaderboardsViewController.m; sourceTree = "<group>"; };
+		B523F04A19D6D03B0033FD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B523F04C19D6D03B0033FD98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B523F04F19D6D03B0033FD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B523F05519D6D03B0033FD98 /* Indie Games HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indie Games HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523F05A19D6D03B0033FD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B523F05B19D6D03B0033FD98 /* Indie_Games_HelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indie_Games_HelperTests.m; sourceTree = "<group>"; };
+		B523F06519D6E9D00033FD98 /* IndieGamesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndieGamesHelper.h; path = lib/IndieGamesHelper.h; sourceTree = "<group>"; };
+		B523F06619D6E9D00033FD98 /* IndieGamesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IndieGamesHelper.m; path = lib/IndieGamesHelper.m; sourceTree = "<group>"; };
+		B523F06919D6EB9E0033FD98 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B523F06C19D6F2BD0033FD98 /* IndieGamesHelperDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndieGamesHelperDefines.h; path = lib/IndieGamesHelperDefines.h; sourceTree = "<group>"; };
+		B523F06D19D6F41A0033FD98 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B523F07F19D712560033FD98 /* InAppPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InAppPurchaseViewController.h; path = "Indie Games Helper/InAppPurchaseViewController.h"; sourceTree = "<group>"; };
+		B523F08019D712560033FD98 /* InAppPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InAppPurchaseViewController.m; path = "Indie Games Helper/InAppPurchaseViewController.m"; sourceTree = "<group>"; };
+		B523F08319D719E40033FD98 /* AdvertisingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvertisingViewController.h; path = "Indie Games Helper/AdvertisingViewController.h"; sourceTree = "<group>"; };
+		B523F08419D719E40033FD98 /* AdvertisingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdvertisingViewController.m; path = "Indie Games Helper/AdvertisingViewController.m"; sourceTree = "<group>"; };
+		B523F0BD19D80E760033FD98 /* AdvertisingHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisingHandler.h; sourceTree = "<group>"; };
+		B523F0BE19D80E760033FD98 /* AdvertisingHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisingHandler.m; sourceTree = "<group>"; };
+		B523F0C019D80E760033FD98 /* AdvertisingBannerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisingBannerHelper.h; sourceTree = "<group>"; };
+		B523F0C119D80E760033FD98 /* AdvertisingBannerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisingBannerHelper.m; sourceTree = "<group>"; };
+		B523F0C319D80E760033FD98 /* AdvertisingFullScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisingFullScreenHelper.h; sourceTree = "<group>"; };
+		B523F0C419D80E760033FD98 /* AdvertisingFullScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisingFullScreenHelper.m; sourceTree = "<group>"; };
+		B523F0C519D80E760033FD98 /* iADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iADViewController.h; sourceTree = "<group>"; };
+		B523F0C619D80E760033FD98 /* iADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iADViewController.m; sourceTree = "<group>"; };
+		B523F0CA19D80E760033FD98 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
+		B523F0CB19D80E760033FD98 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
+		B523F0CC19D80E760033FD98 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
+		B523F0CD19D80E760033FD98 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
+		B523F0CE19D80E760033FD98 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		B523F0CF19D80E760033FD98 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
+		B523F0D019D80E760033FD98 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
+		B523F0D219D80E760033FD98 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		B523F0D319D80E760033FD98 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		B523F0D419D80E760033FD98 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		B523F0D519D80E760033FD98 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		B523F0D619D80E760033FD98 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		B523F0D719D80E760033FD98 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		B523F0D919D80E760033FD98 /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
+		B523F0DA19D80E760033FD98 /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
+		B523F0DB19D80E760033FD98 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		B523F0DC19D80E760033FD98 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		B523F0DD19D80E760033FD98 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		B523F0DE19D80E760033FD98 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		B523F0DF19D80E760033FD98 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		B523F0E019D80E760033FD98 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		B523F0E119D80E760033FD98 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		B523F0E219D80E760033FD98 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		B523F0E319D80E760033FD98 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		B523F0E419D80E760033FD98 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		B523F0E519D80E760033FD98 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		B523F0E619D80E760033FD98 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		B523F0E719D80E760033FD98 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		B523F0E819D80E760033FD98 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B523F0EA19D80E760033FD98 /* GameCenterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterHandler.h; sourceTree = "<group>"; };
+		B523F0EB19D80E760033FD98 /* GameCenterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterHandler.m; sourceTree = "<group>"; };
+		B523F0ED19D80E760033FD98 /* InAppPurchaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseHandler.h; sourceTree = "<group>"; };
+		B523F0EE19D80E760033FD98 /* InAppPurchaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseHandler.m; sourceTree = "<group>"; };
+		B523F0F019D80E760033FD98 /* SharingHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharingHandler.h; sourceTree = "<group>"; };
+		B523F0F119D80E760033FD98 /* SharingHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharingHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B523F03619D6D03B0033FD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523F06A19D6EB9E0033FD98 /* Social.framework in Frameworks */,
+				B523F06E19D6F41A0033FD98 /* GameKit.framework in Frameworks */,
+				B523F0F619D80E760033FD98 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523F05219D6D03B0033FD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B523F03019D6D03B0033FD98 = {
+			isa = PBXGroup;
+			children = (
+				B523F03B19D6D03B0033FD98 /* Indie Games Helper */,
+				B523F05819D6D03B0033FD98 /* Indie Games HelperTests */,
+				B523F03A19D6D03B0033FD98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B523F03A19D6D03B0033FD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B523F03919D6D03B0033FD98 /* Indie Games Helper.app */,
+				B523F05519D6D03B0033FD98 /* Indie Games HelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B523F03B19D6D03B0033FD98 /* Indie Games Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B523F04019D6D03B0033FD98 /* AppDelegate.h */,
+				B523F04119D6D03B0033FD98 /* AppDelegate.m */,
+				B523F06819D6E9D40033FD98 /* Indie Games Helper */,
+				B523F07919D709050033FD98 /* View Controllers */,
+				B523F03C19D6D03B0033FD98 /* Supporting Files */,
+			);
+			path = "Indie Games Helper";
+			sourceTree = "<group>";
+		};
+		B523F03C19D6D03B0033FD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B523F04C19D6D03B0033FD98 /* Images.xcassets */,
+				B523F04E19D6D03B0033FD98 /* LaunchScreen.xib */,
+				B523F06B19D6ED610033FD98 /* Frameworks */,
+				B523F03D19D6D03B0033FD98 /* Info.plist */,
+				B523F03E19D6D03B0033FD98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B523F05819D6D03B0033FD98 /* Indie Games HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B523F05B19D6D03B0033FD98 /* Indie_Games_HelperTests.m */,
+				B523F05919D6D03B0033FD98 /* Supporting Files */,
+			);
+			path = "Indie Games HelperTests";
+			sourceTree = "<group>";
+		};
+		B523F05919D6D03B0033FD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B523F05A19D6D03B0033FD98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B523F06819D6E9D40033FD98 /* Indie Games Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B523F06C19D6F2BD0033FD98 /* IndieGamesHelperDefines.h */,
+				B523F06519D6E9D00033FD98 /* IndieGamesHelper.h */,
+				B523F06619D6E9D00033FD98 /* IndieGamesHelper.m */,
+				B523F0BB19D80E760033FD98 /* Handlers */,
+			);
+			name = "Indie Games Helper";
+			sourceTree = "<group>";
+		};
+		B523F06B19D6ED610033FD98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B523F06D19D6F41A0033FD98 /* GameKit.framework */,
+				B523F06919D6EB9E0033FD98 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B523F07319D6FF930033FD98 /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				B523F04319D6D03B0033FD98 /* SharingViewController.h */,
+				B523F04419D6D03B0033FD98 /* SharingViewController.m */,
+			);
+			name = Sharing;
+			sourceTree = "<group>";
+		};
+		B523F07419D6FF9B0033FD98 /* Game Center */ = {
+			isa = PBXGroup;
+			children = (
+				B523F04619D6D03B0033FD98 /* LeaderboardsViewController.h */,
+				B523F04719D6D03B0033FD98 /* LeaderboardsViewController.m */,
+			);
+			name = "Game Center";
+			sourceTree = "<group>";
+		};
+		B523F07919D709050033FD98 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B523F04919D6D03B0033FD98 /* Main.storyboard */,
+				B523F07319D6FF930033FD98 /* Sharing */,
+				B523F07419D6FF9B0033FD98 /* Game Center */,
+				B523F08219D7125D0033FD98 /* In App Purchase */,
+				B523F08619D71A7E0033FD98 /* Advertising  */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B523F08219D7125D0033FD98 /* In App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				B523F07F19D712560033FD98 /* InAppPurchaseViewController.h */,
+				B523F08019D712560033FD98 /* InAppPurchaseViewController.m */,
+			);
+			name = "In App Purchase";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B523F08619D71A7E0033FD98 /* Advertising  */ = {
+			isa = PBXGroup;
+			children = (
+				B523F08319D719E40033FD98 /* AdvertisingViewController.h */,
+				B523F08419D719E40033FD98 /* AdvertisingViewController.m */,
+			);
+			name = "Advertising ";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B523F0BB19D80E760033FD98 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0BC19D80E760033FD98 /* Advertising */,
+				B523F0E919D80E760033FD98 /* GameCenter */,
+				B523F0EC19D80E760033FD98 /* InAppPurchase */,
+				B523F0EF19D80E760033FD98 /* Sharing */,
+			);
+			name = Handlers;
+			path = lib/Handlers;
+			sourceTree = "<group>";
+		};
+		B523F0BC19D80E760033FD98 /* Advertising */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0BD19D80E760033FD98 /* AdvertisingHandler.h */,
+				B523F0BE19D80E760033FD98 /* AdvertisingHandler.m */,
+				B523F0BF19D80E760033FD98 /* Banner */,
+				B523F0C219D80E760033FD98 /* FullScreen */,
+				B523F0C719D80E760033FD98 /* Google AD SDK */,
+			);
+			path = Advertising;
+			sourceTree = "<group>";
+		};
+		B523F0BF19D80E760033FD98 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0C019D80E760033FD98 /* AdvertisingBannerHelper.h */,
+				B523F0C119D80E760033FD98 /* AdvertisingBannerHelper.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		B523F0C219D80E760033FD98 /* FullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0C319D80E760033FD98 /* AdvertisingFullScreenHelper.h */,
+				B523F0C419D80E760033FD98 /* AdvertisingFullScreenHelper.m */,
+				B523F0C519D80E760033FD98 /* iADViewController.h */,
+				B523F0C619D80E760033FD98 /* iADViewController.m */,
+			);
+			path = FullScreen;
+			sourceTree = "<group>";
+		};
+		B523F0C719D80E760033FD98 /* Google AD SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0C819D80E760033FD98 /* Add-ons */,
+				B523F0DB19D80E760033FD98 /* GADAdMobExtras.h */,
+				B523F0DC19D80E760033FD98 /* GADAdNetworkExtras.h */,
+				B523F0DD19D80E760033FD98 /* GADAdSize.h */,
+				B523F0DE19D80E760033FD98 /* GADBannerView.h */,
+				B523F0DF19D80E760033FD98 /* GADBannerViewDelegate.h */,
+				B523F0E019D80E760033FD98 /* GADInAppPurchase.h */,
+				B523F0E119D80E760033FD98 /* GADInAppPurchaseDelegate.h */,
+				B523F0E219D80E760033FD98 /* GADInterstitial.h */,
+				B523F0E319D80E760033FD98 /* GADInterstitialDelegate.h */,
+				B523F0E419D80E760033FD98 /* GADModules.h */,
+				B523F0E519D80E760033FD98 /* GADRequest.h */,
+				B523F0E619D80E760033FD98 /* GADRequestError.h */,
+				B523F0E719D80E760033FD98 /* libGoogleAdMobAds.a */,
+				B523F0E819D80E760033FD98 /* README.txt */,
+			);
+			path = "Google AD SDK";
+			sourceTree = "<group>";
+		};
+		B523F0C819D80E760033FD98 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0C919D80E760033FD98 /* DoubleClick */,
+				B523F0D119D80E760033FD98 /* Mediation */,
+				B523F0D819D80E760033FD98 /* Search */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		B523F0C919D80E760033FD98 /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0CA19D80E760033FD98 /* DFPBannerView.h */,
+				B523F0CB19D80E760033FD98 /* DFPExtras.h */,
+				B523F0CC19D80E760033FD98 /* DFPInterstitial.h */,
+				B523F0CD19D80E760033FD98 /* DFPSwipeableBannerView.h */,
+				B523F0CE19D80E760033FD98 /* GADAdSizeDelegate.h */,
+				B523F0CF19D80E760033FD98 /* GADAppEventDelegate.h */,
+				B523F0D019D80E760033FD98 /* GADSwipeableBannerViewDelegate.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
+		B523F0D119D80E760033FD98 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0D219D80E760033FD98 /* GADCustomEventBanner.h */,
+				B523F0D319D80E760033FD98 /* GADCustomEventBannerDelegate.h */,
+				B523F0D419D80E760033FD98 /* GADCustomEventExtras.h */,
+				B523F0D519D80E760033FD98 /* GADCustomEventInterstitial.h */,
+				B523F0D619D80E760033FD98 /* GADCustomEventInterstitialDelegate.h */,
+				B523F0D719D80E760033FD98 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		B523F0D819D80E760033FD98 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0D919D80E760033FD98 /* GADSearchBannerView.h */,
+				B523F0DA19D80E760033FD98 /* GADSearchRequest.h */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B523F0E919D80E760033FD98 /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0EA19D80E760033FD98 /* GameCenterHandler.h */,
+				B523F0EB19D80E760033FD98 /* GameCenterHandler.m */,
+			);
+			path = GameCenter;
+			sourceTree = "<group>";
+		};
+		B523F0EC19D80E760033FD98 /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0ED19D80E760033FD98 /* InAppPurchaseHandler.h */,
+				B523F0EE19D80E760033FD98 /* InAppPurchaseHandler.m */,
+			);
+			path = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		B523F0EF19D80E760033FD98 /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				B523F0F019D80E760033FD98 /* SharingHandler.h */,
+				B523F0F119D80E760033FD98 /* SharingHandler.m */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B523F03819D6D03B0033FD98 /* Indie Games Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B523F05F19D6D03B0033FD98 /* Build configuration list for PBXNativeTarget "Indie Games Helper" */;
+			buildPhases = (
+				B523F03519D6D03B0033FD98 /* Sources */,
+				B523F03619D6D03B0033FD98 /* Frameworks */,
+				B523F03719D6D03B0033FD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indie Games Helper";
+			productName = "Indie Games Helper";
+			productReference = B523F03919D6D03B0033FD98 /* Indie Games Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B523F05419D6D03B0033FD98 /* Indie Games HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B523F06219D6D03B0033FD98 /* Build configuration list for PBXNativeTarget "Indie Games HelperTests" */;
+			buildPhases = (
+				B523F05119D6D03B0033FD98 /* Sources */,
+				B523F05219D6D03B0033FD98 /* Frameworks */,
+				B523F05319D6D03B0033FD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B523F05719D6D03B0033FD98 /* PBXTargetDependency */,
+			);
+			name = "Indie Games HelperTests";
+			productName = "Indie Games HelperTests";
+			productReference = B523F05519D6D03B0033FD98 /* Indie Games HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B523F03119D6D03B0033FD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "deniss.kaibagarovs@gmail.com, Denis Kaibagarovs";
+				TargetAttributes = {
+					B523F03819D6D03B0033FD98 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 99TE4Z2NY7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					B523F05419D6D03B0033FD98 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B523F03819D6D03B0033FD98;
+					};
+				};
+			};
+			buildConfigurationList = B523F03419D6D03B0033FD98 /* Build configuration list for PBXProject "Indie Games Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B523F03019D6D03B0033FD98;
+			productRefGroup = B523F03A19D6D03B0033FD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B523F03819D6D03B0033FD98 /* Indie Games Helper */,
+				B523F05419D6D03B0033FD98 /* Indie Games HelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B523F03719D6D03B0033FD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523F04B19D6D03B0033FD98 /* Main.storyboard in Resources */,
+				B523F05019D6D03B0033FD98 /* LaunchScreen.xib in Resources */,
+				B523F0F719D80E760033FD98 /* README.txt in Resources */,
+				B523F04D19D6D03B0033FD98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523F05319D6D03B0033FD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B523F03519D6D03B0033FD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523F04819D6D03B0033FD98 /* LeaderboardsViewController.m in Sources */,
+				B523F0F519D80E760033FD98 /* iADViewController.m in Sources */,
+				B523F0F419D80E760033FD98 /* AdvertisingFullScreenHelper.m in Sources */,
+				B523F0F819D80E760033FD98 /* GameCenterHandler.m in Sources */,
+				B523F04219D6D03B0033FD98 /* AppDelegate.m in Sources */,
+				B523F0FA19D80E760033FD98 /* SharingHandler.m in Sources */,
+				B523F06719D6E9D00033FD98 /* IndieGamesHelper.m in Sources */,
+				B523F08119D712560033FD98 /* InAppPurchaseViewController.m in Sources */,
+				B523F0F919D80E760033FD98 /* InAppPurchaseHandler.m in Sources */,
+				B523F0F319D80E760033FD98 /* AdvertisingBannerHelper.m in Sources */,
+				B523F04519D6D03B0033FD98 /* SharingViewController.m in Sources */,
+				B523F0F219D80E760033FD98 /* AdvertisingHandler.m in Sources */,
+				B523F03F19D6D03B0033FD98 /* main.m in Sources */,
+				B523F08519D719E40033FD98 /* AdvertisingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523F05119D6D03B0033FD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523F05C19D6D03B0033FD98 /* Indie_Games_HelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B523F05719D6D03B0033FD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B523F03819D6D03B0033FD98 /* Indie Games Helper */;
+			targetProxy = B523F05619D6D03B0033FD98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B523F04919D6D03B0033FD98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B523F04A19D6D03B0033FD98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B523F04E19D6D03B0033FD98 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B523F04F19D6D03B0033FD98 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B523F05D19D6D03B0033FD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B523F05E19D6D03B0033FD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B523F06019D6D03B0033FD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Indie Games Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Indie",
+					Games,
+					Helper/lib/Google,
+					AD,
+					SDK,
+					"$(PROJECT_DIR)/Indie",
+					Games,
+					Helper/lib/Handlers/Advertising/Google,
+					AD,
+					SDK,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B523F06119D6D03B0033FD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Indie Games Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Indie",
+					Games,
+					Helper/lib/Google,
+					AD,
+					SDK,
+					"$(PROJECT_DIR)/Indie",
+					Games,
+					Helper/lib/Handlers/Advertising/Google,
+					AD,
+					SDK,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B523F06319D6D03B0033FD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Indie Games HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indie Games Helper.app/Indie Games Helper";
+			};
+			name = Debug;
+		};
+		B523F06419D6D03B0033FD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Indie Games HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indie Games Helper.app/Indie Games Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B523F03419D6D03B0033FD98 /* Build configuration list for PBXProject "Indie Games Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523F05D19D6D03B0033FD98 /* Debug */,
+				B523F05E19D6D03B0033FD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B523F05F19D6D03B0033FD98 /* Build configuration list for PBXNativeTarget "Indie Games Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523F06019D6D03B0033FD98 /* Debug */,
+				B523F06119D6D03B0033FD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B523F06219D6D03B0033FD98 /* Build configuration list for PBXNativeTarget "Indie Games HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523F06319D6D03B0033FD98 /* Debug */,
+				B523F06419D6D03B0033FD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B523F03119D6D03B0033FD98 /* Project object */;
+}
